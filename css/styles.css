@@ -1,0 +1,235 @@
+:root {
+  --main-text-color: #757575;
+  --black-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-background-color: #2f303a;
+  --team-background-color: #e5e5e5;
+  --filter-background-color: #f5f4fa;
+  --button-radius: 4px;
+  --button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--black-text-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.accent-section {
+  background-color: var(--main-background-color);
+}
+
+/* ---------------HEADER--------------- */
+
+.logo-black {
+  color: var(--black-text-color);
+}
+
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  /* color: var(--black-text-color); */
+}
+
+.nav-list {
+  color: var(--black-text-color);
+}
+
+.nav-link:hover,
+.contacts:hover,
+/* .contacts[target='_blank']:hover, */
+.nav-link:focus,
+.contacts:focus,
+/* .contacts[target='_blank']:focus, */
+.nav-list .current {
+  color: var(--accent-color);
+}
+
+/* ---------------HERO--------------- */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.button {
+  display: flex;
+  padding: 10px 32px;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--button-radius);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+  color: var(--white-text-color);
+}
+
+/* ---------------BENEFITS--------------- */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-text-color);
+}
+
+/* ---------------TEAM--------------- */
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-item {
+  background-color: var(--white-text-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--black-text-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ---------------FOOTER--------------- */
+
+.logo-white {
+  color: var(--white-text-color);
+}
+
+.address-list {
+  font-style: normal;
+}
+
+/* .contacts[target='_blank'] {
+  color: var(--white-text-color);
+} */
+
+.address-list li:nth-child(1) {
+  color: var(--white-text-color);
+}
+
+/* ---------------PORTFOLIO--------------- */
+/* ---------------BUTTON-FILTER--------------- */
+
+.button-filter {
+  padding: 6px 22px;
+  border-radius: var(--button-radius);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--filter-background-color);
+  color: var(--black-text-color);
+}
+
+.button-filter:hover,
+.button-filter:focus,
+.button-filter.current {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text-color);
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.portfolio-item {
+  background-color: var(--white-text-color);
+  border: 1px solid #eeeeee;
+}
