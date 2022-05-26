@@ -102,12 +102,12 @@ body {
   /* outline: 1px solid red; */
 }
 
-.card-set{
+.card-set {
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.card-item{
+.card-item {
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -169,7 +169,7 @@ body {
   align-items: center;
 }
 
-.head-contacts .item:not(:last-child) {9
+.head-contacts .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -264,7 +264,7 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.team-card{
+.team-card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -309,7 +309,7 @@ body {
   color: var(--white-text-color);
 }
 
-.address-list .item:not(:last-child){
+.address-list .item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -351,7 +351,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  
 }
 
 .portfolio-item {
