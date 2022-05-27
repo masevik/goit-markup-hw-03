@@ -29,6 +29,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -103,6 +104,8 @@ body {
 }
 
 .card-set {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -258,7 +261,7 @@ body {
 
 .team-item {
   background-color: var(--white-text-color);
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
   border-radius: 5px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -318,6 +321,7 @@ body {
 
 .work-exmpl {
   display: flex;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -345,12 +349,6 @@ body {
 .button-filter.current {
   background-color: var(--accent-color);
   color: var(--white-text-color);
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
 }
 
 .portfolio-item {
