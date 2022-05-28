@@ -115,7 +115,7 @@ body {
   margin-top: 30px;
 }
 
-/* ---------------HEADER--------------- */
+/* ===============HEADER=============== */
 
 .header .logo {
   margin-right: 93px;
@@ -176,7 +176,7 @@ body {
   margin-right: 50px;
 }
 
-/* ---------------HERO--------------- */
+/* ===============HERO=============== */
 
 .hero.accent-section {
   padding-top: 200px;
@@ -220,7 +220,7 @@ body {
   color: var(--white-text-color);
 }
 
-/* ---------------BENEFITS--------------- */
+/* ===============BENEFITS=============== */
 
 .benefits-title {
   margin-bottom: 10px;
@@ -239,7 +239,7 @@ body {
   flex-basis: calc(100% / 4 - 30px);
 }
 
-/* ---------------WORKS--------------- */
+/* ===============WORKS=============== */
 
 .works-list {
   display: flex;
@@ -249,7 +249,7 @@ body {
   flex-basis: calc(100% / 3 - 30px);
 }
 
-/* ---------------TEAM--------------- */
+/* ===============TEAM=============== */
 
 .team {
   background-color: var(--team-background-color);
@@ -288,7 +288,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ---------------FOOTER--------------- */
+/* ===============FOOTER=============== */
 
 .footer.accent-section {
   padding-top: 60px;
@@ -316,8 +316,8 @@ body {
   margin-bottom: 9px;
 }
 
-/* ---------------PORTFOLIO--------------- */
-/* ---------------BUTTON-FILTER--------------- */
+/* ===============PORTFOLIO=============== */
+/* ===============BUTTON-FILTER=============== */
 
 .work-exmpl {
   display: flex;
